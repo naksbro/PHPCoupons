@@ -1,0 +1,120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-24T03:50:40.038Z",
+        "before": [
+          {
+            "result": {
+              "duration": 805632,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify coupon is created",
+        "description": "",
+        "id": "testing-dashboard;verify-coupon-is-created",
+        "after": [
+          {
+            "result": {
+              "duration": 39463,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1409645,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User opens admin home page",
+            "match": {
+              "location": "AdminHomePage_Steps.user_opens_admin_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3176716,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Logs in",
+            "match": {
+              "location": "AdminHomePage_Steps.logs_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 872660,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User navigates to coupons page",
+            "match": {
+              "location": "AdminCouponPage_Steps.user_navigates_to_coupons_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1098399,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Creates new Coupon",
+            "match": {
+              "location": "AdminCouponPage_Steps.creates_new_Coupon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 802503,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verifies coupon is created",
+            "match": {
+              "location": "AdminCouponPage_Steps.verifies_coupon_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adminCoups"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Dashboard",
+    "description": "",
+    "id": "testing-dashboard",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AdminCouponsPage.feature",
+    "tags": [
+      {
+        "name": "@adminCoups",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
